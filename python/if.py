@@ -1,5 +1,8 @@
 #if语句从上往下判断，如果在某个判断True,
 #把该判断对应的语句执行后，忽略掉剩下的elif和else
+import time
+while 1:
+    time.sleep( 1000 ) 
 age = 60
 if age < 12:
     print('teenager')
