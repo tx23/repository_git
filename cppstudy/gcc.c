@@ -9,5 +9,6 @@ int f(int y) {
 }
 
 int main(void) {
+    printf("hello\n");
     return f(8) + 1;
 }
